@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 /**
  * main - check the code
  *
@@ -12,11 +12,5 @@ void print_alphabet(void)
 		putchar (ch);
 	putchar('\n');
 	return;
-}
-
-int main(void)
-{
-	print_alphabet();
-	return (0);
 }
 
