@@ -2,14 +2,15 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * main - return is upper
+ * _isupper - return is upper
  * @c: is upper
- * Reyurn: Always 0 (success)
+ * Return: Always 0 (success)
  */
+
 int _isupper(int c)
 {
 	int a;
-	
+
 	if (isupper(c))
 	{
 		a = 1;
