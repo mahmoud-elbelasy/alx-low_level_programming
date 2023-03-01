@@ -1,7 +1,7 @@
 #include <string.h>
 #include "main.h"
 /**
- * _strcat - concatenations two strings
+ * _strncat - concatenations two strings
  * @dest: the first string
  * @src: the second string
  * @n: the number of digit that will apend from src
