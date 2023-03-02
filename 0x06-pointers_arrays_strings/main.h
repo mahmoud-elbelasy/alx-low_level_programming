@@ -10,6 +10,6 @@ void reverse_array(int *a, int n);
 
 char *string_toupper(char *ch);
 
-char *cap_string(char *);
+char *cap_string(char *n);
 
-char *leet(char *);
+char *leet(char *n);
