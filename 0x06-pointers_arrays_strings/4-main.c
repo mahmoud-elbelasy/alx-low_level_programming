@@ -24,6 +24,7 @@ void print_array(int *a, int n)
     }
     printf("\n");
 }
+
 /**
  * main - check the code
  *
@@ -35,6 +36,6 @@ int main(void)
 
     print_array(a, sizeof(a) / sizeof(int));
     reverse_array(a, sizeof(a) / sizeof(int));
-    /*print_array(a, sizeof(a) / sizeof(int));*/
+    print_array(a, sizeof(a) / sizeof(int));
     return (0);
 }
