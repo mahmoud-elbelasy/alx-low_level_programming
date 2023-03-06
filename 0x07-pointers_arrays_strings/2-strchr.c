@@ -2,9 +2,9 @@
 #include <string.h>
 /**
  * _strchr -  function that locates a character in a string
- * @S: the string
- * @C: the char
- * Return a  pointer with the locate of the char
+ * @s: the string
+ * @c: the char
+ * Return: a pointer with the locate of the char
  */
 char *_strchr(char *s, char c)
 {
@@ -17,7 +17,6 @@ char *_strchr(char *s, char c)
 		{
 			pr = &s[i];
 			return (pr);
-			break;
 		}
 	}
 	return (0);
