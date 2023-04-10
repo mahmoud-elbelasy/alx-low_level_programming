@@ -2,7 +2,7 @@
 /**
  * binary_to_uint - convert binary to decimal
  * @b: the binary number
- * Return the decimal value
+ * Return: the decimal value
  */
 unsigned int binary_to_uint(const char *b)
 {
